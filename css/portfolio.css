@@ -26,3 +26,10 @@ ul{
 li:hover{
 	color: #64D1C6;
 }
+footer{
+	width: 70%;
+	text-align: right;
+}
+.social{
+	text-align: right;
+}
