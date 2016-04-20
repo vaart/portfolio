@@ -1,0 +1,25 @@
+body{
+	background-color: #EAEFD3;
+	color: #505168;
+
+}
+h1{
+	font-size: 50pt;
+	text-align: center;
+}
+.container{
+	width: 70%;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, .3);
+	border-radius: 30px;
+	text-align: center;
+}
+ul{
+	list-style: none;
+}
+li:hover{
+	color: #64D1C6;
+}
+div{
+	border: solid; 1px;
+}
