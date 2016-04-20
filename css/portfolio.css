@@ -1,12 +1,17 @@
 body{
 	background-color: #EAEFD3;
 	color: #505168;
-
+}
+@font-face {
+    font-family: honefont;
+    src: url(../fonts/metropolis.ttf);
 }
 h1{
 	font-size: 50pt;
 	text-align: center;
+	font-family: honefont;
 }
+
 .container{
 	width: 70%;
 	margin: 0 auto;
@@ -14,6 +19,7 @@ h1{
 	border-radius: 30px;
 	text-align: center;
 }
+
 ul{
 	list-style: none;
 }
@@ -21,5 +27,5 @@ li:hover{
 	color: #64D1C6;
 }
 div{
-	border: solid; 1px;
+	border: solid 1px;
 }
