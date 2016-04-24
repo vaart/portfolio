@@ -1,23 +1,76 @@
 body{
-	background-color: #EAEFD3;
+	background-color: #E6E8E6;
 	color: #505168;
 }
 @font-face {
     font-family: honefont;
     src: url(../fonts/metropolis.ttf);
 }
+@font-face{
+	font-family: hthreefont;
+	src: url(../fonts/blake2.ttf);
+}
+@font-face{
+	font-family: lifont;
+	src: url(../fonts/basictitlefont.ttf);
+}
 h1{
 	font-size: 50pt;
 	text-align: center;
 	font-family: honefont;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	color: #534B62;
 }
 
 .container{
-	width: 70%;
+	width: 600px;
 	margin: 0 auto;
-	background: rgba(255, 255, 255, .3);
-	border-radius: 30px;
+/*	background: #CED0CE;
+	border-radius: 10px;*/
 	text-align: center;
+/*	border: solid 1px*/
+}
+
+.box{
+	position: relative;
+	height: 600px;
+	width: 600px;
+/*	border: dotted;*/
+	margin: auto;
+}
+
+.topLeft, .topRight{
+	float: left;
+}
+
+.topLeft{
+	width: 60%;
+	height: 25%;
+	background: #CFD8D7;
+}
+.topRight{
+	width: 40%;
+	height: 25%;
+	background: #A499B3;
+}
+
+.bottomLeft, .bottomRight{
+	float: left;
+	margin: 0;
+}
+
+.bottomLeft{
+	width: 60%;
+	height: 75%;
+	background: #A499B3;
+	position: relative;
+}
+.bottomRight{
+	width: 40%;
+	height: 75%;
+	background: #534B62;
+	position: relative;
 }
 
 ul{
@@ -27,9 +80,37 @@ li:hover{
 	color: #64D1C6;
 }
 footer{
-	width: 70%;
-	text-align: right;
+	width: 60%;
+	text-align: left;
+	font-family: lifont;
+	color: #534B62;
+	font-size: 18pt;
 }
 .social{
+	width: 40%;
 	text-align: right;
+	margin: auto;
+}
+
+footer, .social{
+	float: right;
+}
+
+h3 {
+	font-family: lifont;
+	color: white;
+	font-size: 30pt;
+	margin-left: 0px;
+
+}
+li{
+	font-family: lifont;
+	color: white;
+	font-size: 16pt;
+	margin-bottom: 5px;
+}
+
+.centerMe{
+	width: 100%;
+	margin: auto;
 }
